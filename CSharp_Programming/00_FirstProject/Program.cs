@@ -5,14 +5,14 @@ namespace FirstProgram
 {
     class Program
     {
-        static void Main(string[] args, Console console)
+        static void Main(string[] args)
         {
-            string condition = console.ReadLine();
+            string condition = Console.ReadLine();
 
             if (condition == "A"){
-                console.WriteLine("Hello Aakash");
+                Console.WriteLine("Hello Aakash");
             }else if (condition == "B")
-                console.WriteLine("Hello Bera");
+                Console.WriteLine("Hello Bera");
             
         }
     }
