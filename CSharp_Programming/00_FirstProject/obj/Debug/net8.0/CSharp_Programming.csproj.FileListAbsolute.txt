@@ -1,0 +1,15 @@
+/workspaces/MyProgrammingSpace/CSharp_Programming/00_FirstProject/bin/Debug/net8.0/CSharp_Programming
+/workspaces/MyProgrammingSpace/CSharp_Programming/00_FirstProject/bin/Debug/net8.0/CSharp_Programming.deps.json
+/workspaces/MyProgrammingSpace/CSharp_Programming/00_FirstProject/bin/Debug/net8.0/CSharp_Programming.runtimeconfig.json
+/workspaces/MyProgrammingSpace/CSharp_Programming/00_FirstProject/bin/Debug/net8.0/CSharp_Programming.dll
+/workspaces/MyProgrammingSpace/CSharp_Programming/00_FirstProject/bin/Debug/net8.0/CSharp_Programming.pdb
+/workspaces/MyProgrammingSpace/CSharp_Programming/00_FirstProject/obj/Debug/net8.0/CSharp_Programming.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/MyProgrammingSpace/CSharp_Programming/00_FirstProject/obj/Debug/net8.0/CSharp_Programming.AssemblyInfoInputs.cache
+/workspaces/MyProgrammingSpace/CSharp_Programming/00_FirstProject/obj/Debug/net8.0/CSharp_Programming.AssemblyInfo.cs
+/workspaces/MyProgrammingSpace/CSharp_Programming/00_FirstProject/obj/Debug/net8.0/CSharp_Programming.csproj.CoreCompileInputs.cache
+/workspaces/MyProgrammingSpace/CSharp_Programming/00_FirstProject/obj/Debug/net8.0/CSharp_Programming.sourcelink.json
+/workspaces/MyProgrammingSpace/CSharp_Programming/00_FirstProject/obj/Debug/net8.0/CSharp_Programming.dll
+/workspaces/MyProgrammingSpace/CSharp_Programming/00_FirstProject/obj/Debug/net8.0/refint/CSharp_Programming.dll
+/workspaces/MyProgrammingSpace/CSharp_Programming/00_FirstProject/obj/Debug/net8.0/CSharp_Programming.pdb
+/workspaces/MyProgrammingSpace/CSharp_Programming/00_FirstProject/obj/Debug/net8.0/CSharp_Programming.genruntimeconfig.cache
+/workspaces/MyProgrammingSpace/CSharp_Programming/00_FirstProject/obj/Debug/net8.0/ref/CSharp_Programming.dll
