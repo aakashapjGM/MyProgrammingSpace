@@ -1,27 +1,22 @@
 ﻿using System;
 
-namespace Hello
+namespace MyProgramSpace
 {
-<<<<<<< HEAD
-   class Program
-   {
-      int Number = 10;
-      double variable = 30.0;
-      char charactor = 'a';
-      string Name = "Aakash";
-      bool isTrue;
-      const int constVariable = 10;
-
-   }
-}
-=======
-  class Program
+  class MyClassProgram
   {
     static void Main(string[] args)
     {
+      int[] myNumArray = new int[4];
 
-}
+      for(int i=0; i<myNumArray.Length; i++)
+      {
+        myNumArray[i] = i * 20;
+      }
+
+      foreach(int j in myNumArray)
+      {
+        Console.WriteLine($"My Array Value: {j}");
+      }
     }
   }
-
->>>>>>> e0c60aa20974409a4174e1226183e35b7e6bfb0e
+}
