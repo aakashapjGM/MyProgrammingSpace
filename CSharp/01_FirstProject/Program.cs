@@ -6,17 +6,11 @@ namespace MyProgramSpace
   {
     static void Main(string[] args)
     {
-      int[] myNumArray = new int[4];
+      int[] arrayInt;
+      arrayInt = new int[4];
+      arrayInt[1] = 445;
 
-      for(int i=0; i<myNumArray.Length; i++)
-      {
-        myNumArray[i] = i * 20;
-      }
-
-      foreach(int j in myNumArray)
-      {
-        Console.WriteLine($"My Array Value: {j}");
-      }
+      Console.WriteLine(arrayInt[1]);
     }
   }
 }
