@@ -6,11 +6,17 @@ namespace MyProgramSpace
   {
     static void Main(string[] args)
     {
-      int[] arrayInt;
-      arrayInt = new int[4];
-      arrayInt[1] = 445;
 
-      Console.WriteLine(arrayInt[1]);
+      DateTime StartDate = new DateTime(2024, 9, 14);
+
+      var EndDate = StartDate.AddDays(10);
+
+      Console.WriteLine(StartDate.Year);
+      Console.WriteLine(EndDate.Day);
+
+      
+
+
     }
   }
 }
