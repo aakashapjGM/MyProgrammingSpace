@@ -27,6 +27,8 @@ namespace MyProgramSpace
             Console.WriteLine($"Construtor 3:{Age} , {Num}");
         }
 
+        
+
     }
 
     static void Main(string[] args)
