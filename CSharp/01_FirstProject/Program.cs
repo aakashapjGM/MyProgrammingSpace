@@ -1,22 +1,38 @@
 ﻿using System;
+using System.Globalization;
+using System.Security.Cryptography;
 
 namespace MyProgramSpace
 {
-  class MyClassProgram
+  class MyProgramSpace
   {
-    static void Main(string[] args)
+    public class MySampleClass 
     {
 
-      DateTime StartDate = new DateTime(2024, 9, 14);
+        // Constructor 1: no parameter constructor method, calls the second constructor
+        public MySampleClass() : this(10) 
+        {
+            Console.WriteLine($"Cosntructor Chaining:");
+        }
 
-      var EndDate = StartDate.AddDays(10);
+        // Constructor 2: constructor with one parameter
+        public MySampleClass(int Age) : this(28, 90398)
+        {
+            Console.WriteLine($"Construtor 2:{Age}");
+            // Second Constructor
+        }
 
-      Console.WriteLine(StartDate.Year);
-      Console.WriteLine(EndDate.Day);
+        public MySampleClass(int Age, int Num)
+        {
+            Console.WriteLine($"Construtor 3:{Age} , {Num}");
+        }
 
-      
+    }
 
-
+    static void Main(string[] args)
+    {
+        MySampleClass x = new();
     }
   }
 }
+
