@@ -36,7 +36,7 @@ namespace MyProgramSpace
     static void Main(string[] args)
     {
         MySampleClass x = new();
-        Console.WriteLine("Hello World");
+        Console.WriteLine("Hello World 2");
     }
   }
 }
