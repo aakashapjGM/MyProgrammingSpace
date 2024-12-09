@@ -1,43 +1,40 @@
 ﻿using System;
 using System.Globalization;
 using System.Security.Cryptography;
+using System.Security.Cryptography.X509Certificates;
 
 namespace MyProgramSpace
 {
-  class MyProgramSpace
-  {
-    public class MySampleClass 
+
+    class Program
     {
-
-        // Constructor 1: no parameter constructor method, calls the second constructor
-        public MySampleClass() : this(10) 
+        class nameSet
         {
-            Console.WriteLine($"Cosntructor Chaining:");
+            string name;
+
+            public void NameFunction(string name)
+            {
+                
+                this.name = name;
+
+                public string get()
+                {
+                    return this.name;
+                }
+            }
+
+            
         }
-
-        // Constructor 2: constructor with one parameter
-        public MySampleClass(int Age) : this(28, 90398)
-        {
-            Console.WriteLine($"Construtor 2:{Age}");
-            // Second Constructor
-        }
-
-        public MySampleClass(int Age, int Num)
-        {
-            Console.WriteLine($"Construtor 3:{Age} , {Num}");
-        }
-
-        
-
-        
-
+            
+                // Main Method
+                public static void Main(String[] args)
+                {
+                    nameSet x = new();
+                    x.NameFunction("Aakash");
+                    Console.WriteLine(x.get());
+                }
     }
-
-    static void Main(string[] args)
-    {
-        MySampleClass x = new();
-        Console.WriteLine("Hello World 2");
-    }
-  }
 }
+
+
 
