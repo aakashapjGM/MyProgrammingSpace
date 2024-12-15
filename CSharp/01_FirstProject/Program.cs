@@ -8,32 +8,67 @@ namespace MyProgramSpace
 
     class Program
     {
-        class nameSet
+
+        class printName
         {
-            string name;
+            string _Myname;
+            int _weight;
 
-            public void NameFunction(string name)
-            {
-                
-                this.name = name;
+             public void setValue(string name, int weight = 60)
+             {
+                _Myname = name;
+                _weight = weight;
+             }
 
-                public string get()
-                {
-                    return this.name;
-                }
-            }
-
-            
+             public void getValue()
+             {
+                Console.WriteLine(nameof(_Myname));
+                Console.WriteLine(nameof(_weight));
+             }
         }
-            
-                // Main Method
-                public static void Main(String[] args)
-                {
-                    nameSet x = new();
-                    x.NameFunction("Aakash");
-                    Console.WriteLine(x.get());
-                }
+
+        
+
+        // Main Method
+        public static void Main(String[] args)
+        {
+            printName MyPrintName = new();
+
+            MyPrintName.setValue("Aakash");
+            MyPrintName.getValue();
+        }
     }
+
+}
+
+class ClassName
+{
+
+    private readonly string Item;
+    // Variable
+    int variableName;
+
+    // properties
+    public int Property
+    {
+        set
+        {  ; }
+        get
+        {  return -1; }
+    }
+
+    // Constructor
+    public ClassName(int value)
+    {
+
+    }
+
+    // Method
+    public void Method(int parameter)
+    {
+
+    }
+
 }
 
 
