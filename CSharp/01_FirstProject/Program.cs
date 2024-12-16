@@ -44,30 +44,7 @@ namespace MyProgramSpace
 class ClassName
 {
 
-    private readonly string Item;
-    // Variable
-    int variableName;
-
-    // properties
-    public int Property
-    {
-        set
-        {  ; }
-        get
-        {  return -1; }
-    }
-
-    // Constructor
-    public ClassName(int value)
-    {
-
-    }
-
-    // Method
-    public void Method(int parameter)
-    {
-
-    }
+    
 
 }
 
