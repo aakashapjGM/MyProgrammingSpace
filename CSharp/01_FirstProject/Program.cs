@@ -44,7 +44,7 @@ namespace MyProgramSpace
 class ClassName
 {
 
-    
+
 
 }
 
