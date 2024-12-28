@@ -9,33 +9,20 @@ namespace MyProgramSpace
     class Program
     {
 
-        class printName
+        class myClass
         {
-            string _Myname;
-            int _weight;
-
-             public void setValue(string name, int weight = 60)
-             {
-                _Myname = name;
-                _weight = weight;
-             }
-
-             public void getValue()
-             {
-                Console.WriteLine(nameof(_Myname));
-                Console.WriteLine(nameof(_weight));
-             }
+            public const int Value = 10;
+            public myClass(int Num)
+            {
+                Console.WriteLine(Value + Num);
+            }
         }
-
-        
 
         // Main Method
         public static void Main(String[] args)
         {
-            printName MyPrintName = new();
-
-            MyPrintName.setValue("Aakash");
-            MyPrintName.getValue();
+            myClass test = new(10); // O/p - 20
+            Console.WriteLine(myClass.Value); // O/p - 10
         }
     }
 
