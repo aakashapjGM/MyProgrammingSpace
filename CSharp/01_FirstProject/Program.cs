@@ -2,27 +2,40 @@
 using System.Globalization;
 using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
+using BankApplication;
+
 
 namespace MyProgramSpace
 {
 
     class Program
     {
-
-        class myClass
+        public class Encap
         {
-            public const int Value = 10;
-            public myClass(int Num)
+            public int varOne { get; private set; }
+            public string? varTwo{private get; set;}
+
+            public void varOneSetter(int Num)
             {
-                Console.WriteLine(Value + Num);
+                this.varOne = Num;
+                Console.WriteLine($"varOne is set to value {Num}");
+            }
+
+            public void varTwoGetter()
+            {
+                Console.WriteLine($"varTwo value is {this.varTwo}");
             }
         }
-
         // Main Method
         public static void Main(String[] args)
         {
-            myClass test = new(10); // O/p - 20
-            Console.WriteLine(myClass.Value); // O/p - 10
+            BankApplication.Program2 BankApplicationObj = new();
+            BankApplicationObj.print();
+            Encap enObj = new();
+            enObj.varTwo = "Hello Aakash";
+            enObj.varOneSetter(20);
+            enObj.varTwoGetter();
+            Console.WriteLine(enObj.varOne);
         }
     }
 
