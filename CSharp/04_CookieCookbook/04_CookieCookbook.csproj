@@ -3,13 +3,9 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>_01_FirstProject</RootNamespace>
+    <RootNamespace>_04_CookieCookbook</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Opc.UaFx.Advanced" Version="1.5.6.1" />
-  </ItemGroup>
 
 </Project>
