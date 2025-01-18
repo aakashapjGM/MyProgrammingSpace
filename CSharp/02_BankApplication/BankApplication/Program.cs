@@ -1,6 +1,4 @@
-﻿using System.Numerics;
-
-namespace BankApplication
+﻿namespace BankApplication
 {
     class BankAccount
     {
@@ -85,6 +83,9 @@ namespace BankApplication
             BankAccount AcHolder_2 = new("Nohar Nirmalkar", 700.50);
 
             Console.WriteLine($"Total Number of Account: { BankAccount.TotalOpenedAccount() }");
+
+            string myString = "Aakash";
+            Console.WriteLine(myString.ToUpper());
         }
     }
 }
