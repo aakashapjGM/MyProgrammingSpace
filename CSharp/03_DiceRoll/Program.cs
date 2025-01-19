@@ -1,41 +1,85 @@
-﻿namespace _03_DiceRoll
+﻿using Microsoft.VisualBasic;
+
+namespace _03_DiceRoll;
+
+public class _03_DiceRoll
 {
-    public enum Season
+    public static void Main(string[] args)
     {
-        Spring,
-        Summer,
-        Autumn,
-        Winter
-    }
-    public class DiceRoll
-    {
-        public static void Main(string[] args)
-        {
+        var random = new Random();
+        var Dice = new Dice(random);
+        var guessingGame = new GuessingGame(Dice);
+        GameResult gameResult = guessingGame.Play();
+        guessingGame.PrintResult(gameResult);
             
-            var random = new Random();
+    }
+}
 
-            for(var i=0; i<10; i++)
+public enum GameResult
+{
+    Victory,
+    Loss
+    
+}
+
+public class GuessingGame
+{
+    private Dice _dice;
+    private int _diceRollResult;
+    public const int initialTries = 3;
+
+    public GuessingGame(Dice dice)
+    {
+        _dice = dice;
+    }
+
+    public GameResult Play()
+    {
+        _diceRollResult = _dice.Roll();
+        Console.WriteLine($"Dice Rolled..");
+
+        var triesLeft = initialTries;
+        while(triesLeft > 0)
+        {
+            var guess = ConsoleReader.ReadInteger($"Enter a Number [Your have {triesLeft} chance]: ");
+            if (guess == _diceRollResult)
             {
-                Console.WriteLine(new Dice(random).Roll());
+                return GameResult.Victory;
             }
-            
+            --triesLeft;
         }
+        return GameResult.Loss;
     }
 
-    public class Dice
+    public void PrintResult(GameResult gameResult)
     {
-        private readonly Random _random;
-        private int _SideCount;
-
-        public Dice(Random random, int numberOfSides = 6)
-        {
-            _random = random;
-            _SideCount = numberOfSides;
-        }
-        public int Roll() 
-        {
-            var random = new Random();
-            return random.Next(1, _SideCount + 1);
-        }
+        Console.WriteLine((gameResult == GameResult.Victory) ? "You Win.. :)" : $"You Loss.. :(\nDice Rolled Number was {_diceRollResult}");        
     }
+
+}
+
+public static class ConsoleReader
+{
+    public static int ReadInteger(string message)
+    {
+        int result;
+        do
+        {
+            Console.WriteLine(message);
+        }while(!int.TryParse(Console.ReadLine(), out result));
+
+        return result;
+    }
+}
+
+public class Dice
+{
+    private readonly Random _random;
+    private const int SideCount = 6 ;
+
+    public Dice(Random random)
+    {
+        _random = random;
+    }
+    public int Roll() => _random.Next(1, SideCount+1);
 }
