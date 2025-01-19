@@ -15,12 +15,7 @@ public class _03_DiceRoll
     }
 }
 
-public enum GameResult
-{
-    Victory,
-    Loss
-    
-}
+public enum GameResult { Victory, Loss }
 
 public class GuessingGame
 {
