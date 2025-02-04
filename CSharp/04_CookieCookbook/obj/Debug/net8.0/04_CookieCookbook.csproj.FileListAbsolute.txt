@@ -1,0 +1,15 @@
+A:\Practice_Project\MyProgrammingSpace\MyProgrammingSpace-1\CSharp\04_CookieCookbook\bin\Debug\net8.0\04_CookieCookbook.exe
+A:\Practice_Project\MyProgrammingSpace\MyProgrammingSpace-1\CSharp\04_CookieCookbook\bin\Debug\net8.0\04_CookieCookbook.deps.json
+A:\Practice_Project\MyProgrammingSpace\MyProgrammingSpace-1\CSharp\04_CookieCookbook\bin\Debug\net8.0\04_CookieCookbook.runtimeconfig.json
+A:\Practice_Project\MyProgrammingSpace\MyProgrammingSpace-1\CSharp\04_CookieCookbook\bin\Debug\net8.0\04_CookieCookbook.dll
+A:\Practice_Project\MyProgrammingSpace\MyProgrammingSpace-1\CSharp\04_CookieCookbook\bin\Debug\net8.0\04_CookieCookbook.pdb
+A:\Practice_Project\MyProgrammingSpace\MyProgrammingSpace-1\CSharp\04_CookieCookbook\obj\Debug\net8.0\04_CookieCookbook.GeneratedMSBuildEditorConfig.editorconfig
+A:\Practice_Project\MyProgrammingSpace\MyProgrammingSpace-1\CSharp\04_CookieCookbook\obj\Debug\net8.0\04_CookieCookbook.AssemblyInfoInputs.cache
+A:\Practice_Project\MyProgrammingSpace\MyProgrammingSpace-1\CSharp\04_CookieCookbook\obj\Debug\net8.0\04_CookieCookbook.AssemblyInfo.cs
+A:\Practice_Project\MyProgrammingSpace\MyProgrammingSpace-1\CSharp\04_CookieCookbook\obj\Debug\net8.0\04_CookieCookbook.csproj.CoreCompileInputs.cache
+A:\Practice_Project\MyProgrammingSpace\MyProgrammingSpace-1\CSharp\04_CookieCookbook\obj\Debug\net8.0\04_CookieCookbook.sourcelink.json
+A:\Practice_Project\MyProgrammingSpace\MyProgrammingSpace-1\CSharp\04_CookieCookbook\obj\Debug\net8.0\04_CookieCookbook.dll
+A:\Practice_Project\MyProgrammingSpace\MyProgrammingSpace-1\CSharp\04_CookieCookbook\obj\Debug\net8.0\refint\04_CookieCookbook.dll
+A:\Practice_Project\MyProgrammingSpace\MyProgrammingSpace-1\CSharp\04_CookieCookbook\obj\Debug\net8.0\04_CookieCookbook.pdb
+A:\Practice_Project\MyProgrammingSpace\MyProgrammingSpace-1\CSharp\04_CookieCookbook\obj\Debug\net8.0\04_CookieCookbook.genruntimeconfig.cache
+A:\Practice_Project\MyProgrammingSpace\MyProgrammingSpace-1\CSharp\04_CookieCookbook\obj\Debug\net8.0\ref\04_CookieCookbook.dll
