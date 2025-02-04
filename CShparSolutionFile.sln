@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_DiceRoll", "CSharp\03_Di
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_CookieCookbook", "CSharp\04_CookieCookbook\04_CookieCookbook.csproj", "{EA112F39-C34F-48AC-8F29-4B1D05504F8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_CookieCookbookPractice", "CSharp\05_CookieCookbookPractice\05_CookieCookbookPractice.csproj", "{E43D1DC4-E522-45F3-AF2F-5853A2DD0CBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{EA112F39-C34F-48AC-8F29-4B1D05504F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA112F39-C34F-48AC-8F29-4B1D05504F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA112F39-C34F-48AC-8F29-4B1D05504F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E43D1DC4-E522-45F3-AF2F-5853A2DD0CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E43D1DC4-E522-45F3-AF2F-5853A2DD0CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E43D1DC4-E522-45F3-AF2F-5853A2DD0CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E43D1DC4-E522-45F3-AF2F-5853A2DD0CBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,5 +53,6 @@ Global
 		{E9597039-3D1A-4D68-9095-44574962A6BE} = {B5E6E25B-8752-4FBF-87D8-9917A4241F8D}
 		{B2CA5033-D5C2-49EF-86EE-AFCEE2BAA116} = {70E14F09-1831-4ED0-8FAF-24A88E4B3E27}
 		{EA112F39-C34F-48AC-8F29-4B1D05504F8F} = {70E14F09-1831-4ED0-8FAF-24A88E4B3E27}
+		{E43D1DC4-E522-45F3-AF2F-5853A2DD0CBC} = {70E14F09-1831-4ED0-8FAF-24A88E4B3E27}
 	EndGlobalSection
 EndGlobal
